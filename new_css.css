@@ -1,0 +1,71 @@
+/** {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}*/
+
+body {
+	background-color: #f1efe8;
+	text-align: center;
+
+}
+
+h1 {
+	font-family: "Brush Script MT";
+}
+
+header img {
+	width: 22%;
+	height: 22%;
+	border-radius: 50%; 
+	box-shadow: 0.32rem 0.32rem 0.32rem #64412b;
+	float: right;
+	margin-right: 2%;
+}
+
+hr {
+	border: none; 
+    width: 40%;
+    border-top: 0.32rem dotted;
+    margin: 7% auto;
+}
+
+.first-line {
+	margin-top: 8%;
+}
+
+.port{
+	margin-bottom: 7%;
+}
+
+.portfolio img {
+	border-radius: 10%;
+	box-shadow: 0.32rem 0.32rem 0.32rem #64412b;
+}
+
+.port-container {
+	display: block;
+}
+
+.portfolio button {
+	width: 7em;
+	height: 4em;
+	margin-top: 8%;
+	margin-bottom: 8%;
+	font-family: "Courier New";
+	background-color: #855E3F;
+	color: ghostwhite;
+	border-radius: 10%;
+	box-shadow: 0.32rem 0.32rem 0.32rem #64412b;
+}
+
+ul {
+	text-align: left;
+	display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+	.portfolio {
+		display: flex;
+	}
+}
